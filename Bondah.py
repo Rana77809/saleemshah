@@ -11,7 +11,7 @@ try:
     import mechanize
 except ImportError:
     os.system('pip2 install mechanize')
-    os.system('python2 B4.py')
+    os.system('python2 bondah.py')
  
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -187,7 +187,7 @@ def mb():
 	    psb('Subscrib My Youtube Channel B4 BALOCH M4 MASTER✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
-	    os.system('cd $HOME/B4_BALOCH && python2 B4.py')
+	    os.system('cd $HOME/B4_BALOCH && python2 bondah.py')
 	elif bm =='3':
 	    os.system('xdg-open https://chat.whatsapp.com/BcmyQPBz6lz3t6oVN8wLoi')
 	    menu()
@@ -357,7 +357,7 @@ def pb():
 	print(S+'BlackMafia')     
 	print
 	raw_input(R + 'Back')
-	os.system('python2 B4.py')
+	os.system('python2 bondah.py')
 if __name__=='__main__':
     login()
  
